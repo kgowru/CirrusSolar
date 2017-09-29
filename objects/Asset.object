@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>Flavor_Pak_Replacement_Needed__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Boolean to indicate whether a Flavor Pak for this asset needs to be replaced.</description>
+        <externalId>false</externalId>
+        <label>Flavor Pak Replacement Needed</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Max_Pressure__c</fullName>
+        <description>Maximum recommended tire pressure.</description>
+        <externalId>false</externalId>
+        <label>Max Pressure</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Output_Wattage__c</fullName>
+        <description>Expected output wattage of panel.</description>
+        <externalId>false</externalId>
+        <label>Output Wattage</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Recommended_Mileage__c</fullName>
+        <description>Recommended tire mileage.</description>
+        <externalId>false</externalId>
+        <label>Recommended Mileage</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Serial_No__c</fullName>
+        <description>Serial Number of the asset.</description>
+        <externalId>true</externalId>
+        <label>Serial No</label>
+        <length>80</length>
+        <required>true</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Total_Cells__c</fullName>
+        <description>Total number of photovoltaic cells on this panel model.</description>
+        <externalId>false</externalId>
+        <label>Total Cells</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+</CustomObject>
