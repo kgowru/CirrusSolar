@@ -53,13 +53,5 @@
         <members>War_Rig__c.All</members>
         <name>ListView</name>
     </types>
-<types>
-        <members>Cirrus_Solar_Proactive_Service</members>
-        <name>Orchestration</name>
-    </types>
-    <types>
-        <members>Cirrus_Solar_Service</members>
-        <name>OrchestrationContext</name>
-    </types>
     <version>41.0</version>
 </Package>
